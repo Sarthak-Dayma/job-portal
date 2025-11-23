@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "phone": "+91 9876543210",
+      "name": "Ramesh Kumar",
+      "userType": "worker",
+      "createdAt": "2025-10-01"
+    },
+    {
+      "id": 2,
+      "phone": "+91 9876543211",
+      "name": "Priya Singh",
+      "userType": "worker",
+      "createdAt": "2025-10-02"
+    },
+    {
+      "id": 3,
+      "phone": "+91 9876543212",
+      "name": "Vikram Patel",
+      "userType": "worker",
+      "createdAt": "2025-10-03"
+    },
+    {
+      "id": 4,
+      "phone": "+91 9876543220",
+      "name": "BuildCorp",
+      "userType": "employer",
+      "createdAt": "2025-10-01"
+    },
+    {
+      "id": 5,
+      "phone": "+91 9876543221",
+      "name": "Home Services",
+      "userType": "employer",
+      "createdAt": "2025-10-05"
+    }
+  ],
+  "workers": [
+    {
+      "userId": 1,
+      "trade": "electrician",
+      "skills": ["Wiring", "Panel Installation", "Troubleshooting"],
+      "experienceYears": 5,
+      "rate": 500,
+      "availability": "immediate",
+      "city": "Mumbai",
+      "languages": ["Hindi", "English"],
+      "rating": 4.5
+    },
+    {
+      "userId": 2,
+      "trade": "plumber",
+      "skills": ["Pipe Installation", "Leak Repair", "Fixture Installation"],
+      "experienceYears": 3,
+      "rate": 400,
+      "availability": "flexible",
+      "city": "Mumbai",
+      "languages": ["Hindi", "Marathi"],
+      "rating": 4.2
+    },
+    {
+      "userId": 3,
+      "trade": "carpenter",
+      "skills": ["Wooden Furniture", "Door Frames", "Custom Carpentry"],
+      "experienceYears": 8,
+      "rate": 600,
+      "availability": "dates",
+      "city": "Mumbai",
+      "languages": ["Hindi", "English"],
+      "rating": 4.8
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "employerId": 4,
+      "title": "Electrical Wiring Installation",
+      "description": "Commercial building needs complete electrical wiring. 2-3 days project.",
+      "trade": "electrician",
+      "pay": 5000,
+      "date": "2025-11-07",
+      "city": "Mumbai",
+      "status": "open"
+    },
+    {
+      "id": 2,
+      "employerId": 5,
+      "title": "Bathroom Plumbing Repair",
+      "description": "Fix leaking pipes and install new fixtures in residential flat.",
+      "trade": "plumber",
+      "pay": 2000,
+      "date": "2025-11-08",
+      "city": "Mumbai",
+      "status": "open"
+    },
+    {
+      "id": 3,
+      "employerId": 4,
+      "title": "Office Furniture Assembly",
+      "description": "Assemble and install office furniture for new setup.",
+      "trade": "carpenter",
+      "pay": 3000,
+      "date": "2025-11-10",
+      "city": "Mumbai",
+      "status": "open"
+    }
+  ]
+}
